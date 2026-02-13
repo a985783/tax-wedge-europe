@@ -28,7 +28,7 @@ This paper introduces a novel "Tax Wedge" indicator, leveraging the mechanical d
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/qingsongcui/tax-wedge-europe.git
+   git clone https://github.com/a985783/tax-wedge-europe.git
    cd tax-wedge-europe
    ```
 
