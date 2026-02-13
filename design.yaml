@@ -1,0 +1,31 @@
+specs:
+  model: "Stacked Event Study (Difference-in-Differences)"
+  outcome: "Log Consumer Price Index (HICP)"
+  treatment: "Tax Wedge Shock (Delta ln(1+tau))"
+  equation: "ln(P_t) - ln(P_t-1) = sum(beta_k * D_k) + FE"
+
+fe:
+  unit_fe: "Country x Sector x Event_ID"
+  time_fe: "Month x Year x Event_ID"
+
+se_cluster:
+  primary: "Country x Sector"
+  robustness: "Country"
+
+placebo:
+  method: "Randomized Event Dates"
+  iterations: 1000
+  target: "Beta coefficients centered at zero"
+
+robustness:
+  - "Exclude January Events"
+  - "Exclude Energy Sector"
+  - "Alternative Thresholds (0.5%, 2.0%)"
+  - "Balanced Panel Only"
+  - "Placebo Tests"
+
+assumptions:
+  parallel_trends: "Valid (Pre-trends flat)"
+  exogeneity: "Tax changes not driven by t-1 inflation"
+  stable_unit_treatment: "No spillovers to control group"
+  clean_window: "No confounding shocks in +/- 3 months"

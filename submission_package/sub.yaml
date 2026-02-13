@@ -1,0 +1,27 @@
+targets:
+  primary: "The Review of Economics and Statistics (Restat)"
+  secondary: "AEJ: Economic Policy"
+  backup: "Journal of Public Economics (JPubE)"
+
+requirements:
+  blinded: true
+  double_spacing: false  # Using 1.5 for readability, change if required
+  max_words: 15000       # Approx limits
+  abstract_words: 100
+
+files:
+  main: "paper.pdf"
+  source: "paper.tex"
+  bib: "references.bib"
+  figures: "figures/"
+  tables: "tables/"
+  cover_letter: "COVER_LETTER.md"
+  online_appendix: "included_in_main_pdf" # Often appended at end for initial sub
+
+risks:
+  - "Mechanical identification critique"
+  - "Differences from Benzarti (2020)"
+  - "External validity (Europe only)"
+
+status: "Ready for Final Polish"
+last_compiled: "2025-05-22"

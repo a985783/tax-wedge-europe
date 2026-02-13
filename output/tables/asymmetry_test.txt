@@ -1,0 +1,125 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          norm_log_hicp   R-squared:                       0.144
+Model:                            OLS   Adj. R-squared:                  0.138
+Method:                 Least Squares   F-statistic:                     27.61
+Date:                Mon, 26 Jan 2026   Prob (F-statistic):               0.00
+Time:                        15:54:36   Log-Likelihood:                 5872.9
+No. Observations:               12259   AIC:                        -1.160e+04
+Df Residuals:                   12184   BIC:                        -1.104e+04
+Df Model:                          74                                         
+Covariance Type:            nonrobust                                         
+==============================================================================================================
+                                                 coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------
+C(rel_time)[-12]                              -0.0450      0.012     -3.760      0.000      -0.068      -0.022
+C(rel_time)[-11]                              -0.0504      0.012     -4.210      0.000      -0.074      -0.027
+C(rel_time)[-10]                              -0.0417      0.012     -3.488      0.000      -0.065      -0.018
+C(rel_time)[-9]                               -0.0374      0.012     -3.142      0.002      -0.061      -0.014
+C(rel_time)[-8]                               -0.0301      0.012     -2.523      0.012      -0.053      -0.007
+C(rel_time)[-7]                               -0.0205      0.012     -1.720      0.085      -0.044       0.003
+C(rel_time)[-6]                               -0.0093      0.012     -0.778      0.437      -0.033       0.014
+C(rel_time)[-5]                               -0.0078      0.012     -0.655      0.513      -0.031       0.016
+C(rel_time)[-4]                               -0.0027      0.012     -0.225      0.822      -0.026       0.021
+C(rel_time)[-3]                                0.0022      0.012      0.186      0.852      -0.021       0.026
+C(rel_time)[-2]                                0.0007      0.012      0.060      0.952      -0.023       0.024
+C(rel_time)[-1]                            -1.178e-16      0.012  -9.94e-15      1.000      -0.023       0.023
+C(rel_time)[0]                                -0.0026      0.012     -0.216      0.829      -0.026       0.021
+C(rel_time)[1]                                 0.0102      0.012      0.863      0.388      -0.013       0.033
+C(rel_time)[2]                                 0.0139      0.012      1.177      0.239      -0.009       0.037
+C(rel_time)[3]                                 0.0186      0.012      1.571      0.116      -0.005       0.042
+C(rel_time)[4]                                 0.0139      0.012      1.169      0.242      -0.009       0.037
+C(rel_time)[5]                                 0.0188      0.012      1.579      0.114      -0.005       0.042
+C(rel_time)[6]                                 0.0289      0.012      2.416      0.016       0.005       0.052
+C(rel_time)[7]                                 0.0283      0.012      2.367      0.018       0.005       0.052
+C(rel_time)[8]                                 0.0282      0.012      2.361      0.018       0.005       0.052
+C(rel_time)[9]                                 0.0218      0.012      1.821      0.069      -0.002       0.045
+C(rel_time)[10]                                0.0196      0.012      1.635      0.102      -0.004       0.043
+C(rel_time)[11]                                0.0174      0.012      1.453      0.146      -0.006       0.041
+C(rel_time)[12]                                0.0623      0.013      4.741      0.000       0.037       0.088
+C(rel_time)[-12]:shock_size:is_hike[False]     0.0975      0.042      2.296      0.022       0.014       0.181
+C(rel_time)[-11]:shock_size:is_hike[False]     0.0415      0.042      0.976      0.329      -0.042       0.125
+C(rel_time)[-10]:shock_size:is_hike[False]     0.0474      0.042      1.117      0.264      -0.036       0.131
+C(rel_time)[-9]:shock_size:is_hike[False]      0.0587      0.042      1.397      0.163      -0.024       0.141
+C(rel_time)[-8]:shock_size:is_hike[False]      0.0555      0.042      1.320      0.187      -0.027       0.138
+C(rel_time)[-7]:shock_size:is_hike[False]      0.0532      0.042      1.267      0.205      -0.029       0.136
+C(rel_time)[-6]:shock_size:is_hike[False]      0.0513      0.042      1.221      0.222      -0.031       0.134
+C(rel_time)[-5]:shock_size:is_hike[False]      0.0517      0.042      1.231      0.218      -0.031       0.134
+C(rel_time)[-4]:shock_size:is_hike[False]      0.0570      0.042      1.358      0.175      -0.025       0.139
+C(rel_time)[-3]:shock_size:is_hike[False]      0.0425      0.042      1.011      0.312      -0.040       0.125
+C(rel_time)[-2]:shock_size:is_hike[False]      0.0077      0.042      0.183      0.855      -0.075       0.090
+C(rel_time)[-1]:shock_size:is_hike[False]  -4.052e-16      0.042   -9.7e-15      1.000      -0.082       0.082
+C(rel_time)[0]:shock_size:is_hike[False]       0.0801      0.042      1.915      0.055      -0.002       0.162
+C(rel_time)[1]:shock_size:is_hike[False]       0.1144      0.042      2.736      0.006       0.032       0.196
+C(rel_time)[2]:shock_size:is_hike[False]       0.0996      0.042      2.382      0.017       0.018       0.181
+C(rel_time)[3]:shock_size:is_hike[False]       0.0937      0.042      2.241      0.025       0.012       0.176
+C(rel_time)[4]:shock_size:is_hike[False]       0.0934      0.042      2.232      0.026       0.011       0.175
+C(rel_time)[5]:shock_size:is_hike[False]       0.0805      0.042      1.921      0.055      -0.002       0.163
+C(rel_time)[6]:shock_size:is_hike[False]       0.0793      0.042      1.891      0.059      -0.003       0.161
+C(rel_time)[7]:shock_size:is_hike[False]       0.0707      0.042      1.687      0.092      -0.011       0.153
+C(rel_time)[8]:shock_size:is_hike[False]       0.0588      0.042      1.402      0.161      -0.023       0.141
+C(rel_time)[9]:shock_size:is_hike[False]       0.0446      0.042      1.062      0.288      -0.038       0.127
+C(rel_time)[10]:shock_size:is_hike[False]      0.0295      0.042      0.704      0.482      -0.053       0.112
+C(rel_time)[11]:shock_size:is_hike[False]      0.0484      0.042      1.152      0.249      -0.034       0.131
+C(rel_time)[12]:shock_size:is_hike[False]      0.1641      0.044      3.733      0.000       0.078       0.250
+C(rel_time)[-12]:shock_size:is_hike[True]      0.0557      0.058      0.952      0.341      -0.059       0.170
+C(rel_time)[-11]:shock_size:is_hike[True]      0.0966      0.058      1.652      0.098      -0.018       0.211
+C(rel_time)[-10]:shock_size:is_hike[True]      0.1375      0.058      2.354      0.019       0.023       0.252
+C(rel_time)[-9]:shock_size:is_hike[True]       0.1264      0.058      2.167      0.030       0.012       0.241
+C(rel_time)[-8]:shock_size:is_hike[True]       0.1086      0.058      1.863      0.063      -0.006       0.223
+C(rel_time)[-7]:shock_size:is_hike[True]       0.0961      0.058      1.653      0.098      -0.018       0.210
+C(rel_time)[-6]:shock_size:is_hike[True]       0.1139      0.058      1.959      0.050   -5.72e-05       0.228
+C(rel_time)[-5]:shock_size:is_hike[True]       0.1113      0.058      1.914      0.056      -0.003       0.225
+C(rel_time)[-4]:shock_size:is_hike[True]       0.1188      0.058      2.043      0.041       0.005       0.233
+C(rel_time)[-3]:shock_size:is_hike[True]       0.0825      0.058      1.420      0.156      -0.031       0.197
+C(rel_time)[-2]:shock_size:is_hike[True]      -0.0126      0.058     -0.216      0.829      -0.127       0.101
+C(rel_time)[-1]:shock_size:is_hike[True]   -5.754e-17      0.058  -9.99e-16      1.000      -0.113       0.113
+C(rel_time)[0]:shock_size:is_hike[True]        0.3645      0.058      6.328      0.000       0.252       0.477
+C(rel_time)[1]:shock_size:is_hike[True]        0.3640      0.058      6.318      0.000       0.251       0.477
+C(rel_time)[2]:shock_size:is_hike[True]        0.3493      0.058      6.061      0.000       0.236       0.462
+C(rel_time)[3]:shock_size:is_hike[True]        0.3586      0.058      6.221      0.000       0.246       0.472
+C(rel_time)[4]:shock_size:is_hike[True]        0.4051      0.058      7.017      0.000       0.292       0.518
+C(rel_time)[5]:shock_size:is_hike[True]        0.4022      0.058      6.965      0.000       0.289       0.515
+C(rel_time)[6]:shock_size:is_hike[True]        0.3900      0.058      6.753      0.000       0.277       0.503
+C(rel_time)[7]:shock_size:is_hike[True]        0.4064      0.058      7.037      0.000       0.293       0.520
+C(rel_time)[8]:shock_size:is_hike[True]        0.4360      0.058      7.550      0.000       0.323       0.549
+C(rel_time)[9]:shock_size:is_hike[True]        0.4374      0.058      7.573      0.000       0.324       0.551
+C(rel_time)[10]:shock_size:is_hike[True]       0.4826      0.058      8.331      0.000       0.369       0.596
+C(rel_time)[11]:shock_size:is_hike[True]       0.4898      0.058      8.454      0.000       0.376       0.603
+C(rel_time)[12]:shock_size:is_hike[True]       0.2634      0.070      3.736      0.000       0.125       0.402
+C(rel_time)[-12]:shock_size:is_cut[T.True]     0.0975      0.042      2.296      0.022       0.014       0.181
+C(rel_time)[-11]:shock_size:is_cut[T.True]     0.0415      0.042      0.976      0.329      -0.042       0.125
+C(rel_time)[-10]:shock_size:is_cut[T.True]     0.0474      0.042      1.117      0.264      -0.036       0.131
+C(rel_time)[-9]:shock_size:is_cut[T.True]      0.0587      0.042      1.397      0.163      -0.024       0.141
+C(rel_time)[-8]:shock_size:is_cut[T.True]      0.0555      0.042      1.320      0.187      -0.027       0.138
+C(rel_time)[-7]:shock_size:is_cut[T.True]      0.0532      0.042      1.267      0.205      -0.029       0.136
+C(rel_time)[-6]:shock_size:is_cut[T.True]      0.0513      0.042      1.221      0.222      -0.031       0.134
+C(rel_time)[-5]:shock_size:is_cut[T.True]      0.0517      0.042      1.231      0.218      -0.031       0.134
+C(rel_time)[-4]:shock_size:is_cut[T.True]      0.0570      0.042      1.358      0.175      -0.025       0.139
+C(rel_time)[-3]:shock_size:is_cut[T.True]      0.0425      0.042      1.011      0.312      -0.040       0.125
+C(rel_time)[-2]:shock_size:is_cut[T.True]      0.0077      0.042      0.183      0.855      -0.075       0.090
+C(rel_time)[-1]:shock_size:is_cut[T.True]  -7.509e-17      0.042   -1.8e-15      1.000      -0.082       0.082
+C(rel_time)[0]:shock_size:is_cut[T.True]       0.0801      0.042      1.915      0.055      -0.002       0.162
+C(rel_time)[1]:shock_size:is_cut[T.True]       0.1144      0.042      2.736      0.006       0.032       0.196
+C(rel_time)[2]:shock_size:is_cut[T.True]       0.0996      0.042      2.382      0.017       0.018       0.181
+C(rel_time)[3]:shock_size:is_cut[T.True]       0.0937      0.042      2.241      0.025       0.012       0.176
+C(rel_time)[4]:shock_size:is_cut[T.True]       0.0934      0.042      2.232      0.026       0.011       0.175
+C(rel_time)[5]:shock_size:is_cut[T.True]       0.0805      0.042      1.921      0.055      -0.002       0.163
+C(rel_time)[6]:shock_size:is_cut[T.True]       0.0793      0.042      1.891      0.059      -0.003       0.161
+C(rel_time)[7]:shock_size:is_cut[T.True]       0.0707      0.042      1.687      0.092      -0.011       0.153
+C(rel_time)[8]:shock_size:is_cut[T.True]       0.0588      0.042      1.402      0.161      -0.023       0.141
+C(rel_time)[9]:shock_size:is_cut[T.True]       0.0446      0.042      1.062      0.288      -0.038       0.127
+C(rel_time)[10]:shock_size:is_cut[T.True]      0.0295      0.042      0.704      0.482      -0.053       0.112
+C(rel_time)[11]:shock_size:is_cut[T.True]      0.0484      0.042      1.152      0.249      -0.034       0.131
+C(rel_time)[12]:shock_size:is_cut[T.True]      0.1641      0.044      3.733      0.000       0.078       0.250
+==============================================================================
+Omnibus:                     1780.906   Durbin-Watson:                   0.247
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            25629.425
+Skew:                          -0.158   Prob(JB):                         0.00
+Kurtosis:                      10.076   Cond. No.                     4.59e+16
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 2.42e-31. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

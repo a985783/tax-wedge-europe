@@ -1,0 +1,25 @@
+# Data Acquisition & API
+eurostat>=1.0.0
+requests>=2.31.0
+
+# Data Processing & Storage
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=14.0.0
+openpyxl>=3.1.0
+
+# Statistical & Econometric Analysis
+scipy>=1.10.0
+statsmodels>=0.14.0
+linearmodels>=5.3
+arch>=6.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Configuration & Utilities
+PyYAML>=6.0.1
+
+# Testing
+pytest>=7.4.0

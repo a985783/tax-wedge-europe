@@ -1,0 +1,11 @@
+{
+  "hicp_rows": 6391800,
+  "hicp_ct_rows": 4455072,
+  "merged_rows": 4455072,
+  "overlap_ratio": 0.696998028724303,
+  "time_min": "2002-01",
+  "time_max": "2025-12",
+  "missing_hicp_rate": 0.41733909070997216,
+  "missing_hicp_ct_rate": 0.4600821266188291,
+  "missing_weight_rate": 0.32227627297605965
+}

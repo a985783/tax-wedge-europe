@@ -1,0 +1,29 @@
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {section}{\numberline {2}Literature Review}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Pass-through of Indirect Taxes}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Asymmetric Price Adjustment}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}High-Frequency Identification (HFI)}{7}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Data and Identification Strategy}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}The Tax Wedge: Mathematical Decomposition}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Automated Shock Detection and Validation}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Threats to Identification and Defenses}{9}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Empirical Strategy}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Stacked Event Study Design}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}``Clean Window'' Identification and Control Group}{11}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Results}{12}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Baseline Pass-through and Persistence}{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Heterogeneity: Core vs Periphery \& Durable vs Non-Durable}{13}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Asymmetry: Evidence for Symmetric Pass-through}{14}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Robustness Checks}{15}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Mechanisms}{16}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Competition in the Single Market}{16}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Price Salience and Tax-Inclusive Pricing}{17}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Symmetric Menu Costs}{17}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Formal Mechanism Tests}{17}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Reconciling with Benzarti et al. (2020)}{17}{subsection.6.5}%
+\contentsline {section}{\numberline {7}Conclusion}{19}{section.7}%
+\contentsline {section}{\numberline {A}Data Construction Details}{22}{appendix.A}%
+\contentsline {section}{\numberline {B}Robustness Checks Tables}{22}{appendix.B}%
+\contentsline {section}{\numberline {C}Validation of Tax Wedge}{24}{appendix.C}%
+\contentsline {subsection}{\numberline {C.1}Audit Protocol}{24}{subsection.C.1}%
+\contentsline {subsection}{\numberline {C.2}Results}{24}{subsection.C.2}%

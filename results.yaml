@@ -1,0 +1,14 @@
+spec_id: baseline_vat_passthrough
+key_coeffs:
+  t_0: 0.351633585194255
+  t_12: 0.35116993268729063
+se:
+  t_0: 0.07224801707293842
+  t_12: 0.17352828842148696
+n: 5740283
+fe: "Geo\xD7COICOP FE (absorbed) + Calendar Time FE (absorbed) + Event-time dummies"
+clusters: Geo
+figs:
+- output/figures/main_event_study.png
+tables:
+- output/tables/main_regression_results.tex

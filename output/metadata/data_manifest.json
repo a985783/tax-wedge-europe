@@ -1,0 +1,40 @@
+{
+  "fetched_at_utc": "2026-01-28T11:24:14.121214+00:00",
+  "datasets": [
+    {
+      "dataset": "prc_hicp_midx",
+      "rows": 10593000,
+      "time_min": "1996-01",
+      "time_max": "2025-12",
+      "missing_rate": 0.2731938072311904
+    },
+    {
+      "dataset": "prc_hicp_cind",
+      "rows": 4455072,
+      "time_min": "2002-01",
+      "time_max": "2025-12",
+      "missing_rate": 0.4600821266188291
+    },
+    {
+      "dataset": "prc_hicp_inw",
+      "rows": 606510,
+      "time_min": "1996",
+      "time_max": "2025",
+      "missing_rate": 0.42721472028490876
+    },
+    {
+      "dataset": "prc_hicp_cmon",
+      "rows": 8758379,
+      "time_min": "2002-02",
+      "time_max": "2025-12",
+      "missing_rate": 0.45954576754442805
+    },
+    {
+      "dataset": "prc_hicp_manr",
+      "rows": 6170388,
+      "time_min": "1997-01",
+      "time_max": "2025-12",
+      "missing_rate": 0.4309855393210281
+    }
+  ]
+}

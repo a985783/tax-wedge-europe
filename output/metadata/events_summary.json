@@ -1,0 +1,6 @@
+{
+  "event_threshold": 0.01,
+  "clean_window_months": 12,
+  "total_events": 16288,
+  "clean_events": 7299
+}
