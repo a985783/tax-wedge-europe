@@ -56,6 +56,11 @@ output/logs/*.log
 # OS
 .DS_Store
 Thumbs.db
+.claude/
+.trae/
+.omo/
+.cursor/
+.gate/
 
 # Jupyter
 .ipynb_checkpoints/
