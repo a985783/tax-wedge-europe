@@ -116,9 +116,9 @@ Upon successful completion, the following outputs will be generated in the `outp
 
 ## 9. Contact Information
 For questions regarding the code or data, please contact:
-- **Author**: [Your Name/Research Team]
-- **Email**: [Your Email Address]
-- **Repository**: [Link to GitHub/GitLab]
+- **Author**: Qingsong Cui
+- **Email**: qingsongcui9857@gmail.com
+- **Repository**: https://github.com/qingsongcui/tax-wedge-europe
 
 ---
 *This replication package is provided for academic purposes. Please cite the original paper when using this code or data.*

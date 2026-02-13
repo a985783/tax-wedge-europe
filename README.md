@@ -28,8 +28,8 @@ This paper introduces a novel "Tax Wedge" indicator, leveraging the mechanical d
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/tax-wedge.git
-   cd tax-wedge
+   git clone https://github.com/qingsongcui/tax-wedge-europe.git
+   cd tax-wedge-europe
    ```
 
 2. Create and activate a virtual environment:
@@ -135,5 +135,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 For questions or feedback regarding the replication package, please contact:
 
 **Qingsong Cui**  
-Email: [your-email@example.com]  
-Website: [your-website.com]
+Email: qingsongcui9857@gmail.com

@@ -2,10 +2,10 @@ cff-version: 1.2.0
 message: "If you use this software, please cite both the software and the paper."
 title: "The Tax Wedge: High-Frequency Identification of Indirect Tax Shocks and Price Rigidity in Europe"
 authors:
-  - family-names: "Author"
-    given-names: "Name"
+  - family-names: "Cui"
+    given-names: "Qingsong"
 date-released: 2026-02-14
-url: "https://github.com/placeholder/repo"
+url: "https://github.com/qingsongcui/tax-wedge-europe"
 abstract: "This paper introduces a novel \"Tax Wedge\" indicator, leveraging the mechanical divergence between the Harmonized Index of Consumer Prices (HICP) and the HICP at Constant Tax Rates (HICP-CT) to automate the identification of over 20,000 idiosyncratic tax shocks across 30 European countries and 100+ product categories from 1996 to 2024."
 keywords:
   - "Tax Pass-through"
@@ -17,8 +17,8 @@ keywords:
 preferred-citation:
   type: article
   authors:
-    - family-names: "Author"
-      given-names: "Name"
+    - family-names: "Cui"
+      given-names: "Qingsong"
   title: "The Tax Wedge: High-Frequency Identification of Indirect Tax Shocks and Price Rigidity in Europe"
   year: 2026
   month: 2
